@@ -18,7 +18,7 @@ The system demonstrates object-oriented programming principles and is structured
 
 ### Installation
 1. **Clone the repository** (if using GitHub):
-   
+   https://github.com/digitalcurrencymom/BAN-6420-MILESTONE-1ASSIGNMENT/tree/main
 
 Extract the contents to a folder named policy_management
 
@@ -27,11 +27,9 @@ Open a terminal or command prompt
 
 Navigate to the project directory:
 
-bash
 cd policy_management
 Run the main script:
 
-bash
 python main.py
 This will:
 
