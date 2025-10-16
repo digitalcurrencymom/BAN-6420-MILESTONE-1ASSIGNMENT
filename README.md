@@ -1,26 +1,28 @@
-# BAN-6420-MILESTONE-1ASSIGNMENT
-# Policy Management System for an Insurance Company
-
+## Policy Management System for an Insurance Company
 ##  Project Overview
-This project is a modular Python-based system designed to help an insurance company manage its core operations related to policyholders, insurance products, and payment processing. It allows policy managers to:
-- Register, suspend, and reactivate policyholders
-- Create, update, and suspend insurance products
-- Process payments, send reminders, and apply penalties
-- View detailed account summaries for each policyholder
+This Python-based system helps an insurance company manage its core operations involving policyholders, insurance products, and payments. It is designed to demonstrate object-oriented programming principles and modular architecture.
 
-The system demonstrates object-oriented programming principles and is structured for scalability and clarity.
+Key Features:
 
-##  Setup Instructions
+Register, suspend, and reactivate policyholders
 
-### Requirements
-- Python 3.7 or higher
-- No external libraries required
+Create, update, and suspend insurance products
 
-### Installation
-1. **Clone the repository** (if using GitHub):
-   https://github.com/digitalcurrencymom/BAN-6420-MILESTONE-1ASSIGNMENT/tree/main
+Process payments, send reminders, and apply penalties
 
-Extract the contents to a folder named policy_management
+Display detailed account summaries for each policyholder
+
+## Setup Instructions
+Requirements
+Python 3.7 or higher
+
+No external libraries required
+
+## Installation
+Clone the repository:
+
+git clone https://github.com/digitalcurrencymom/BAN-6420-MILESTONE-1ASSIGNMENT.git
+Extract or navigate to the folder named policy_management
 
 ## How to Run the Demo
 Open a terminal or command prompt
@@ -30,34 +32,35 @@ Navigate to the project directory:
 cd policy_management
 Run the main script:
 
+
 python main.py
-This will:
+Demo Actions:
 
-Create two policyholders
+Creates two policyholders
 
-Assign them insurance products
+Assigns them insurance products
 
-Process payments
+Processes payments
 
-Display their account details
+Displays their account details
 
 ## File Descriptions
 File Name	Description
-policyholder.py	Defines the Policyholder class with methods to manage registration, status, products, and payments
-product.py	Defines the Product class with methods to create, update, suspend, and remove products
-payment.py	Defines the Payment class with methods to process payments, send reminders, and apply penalties
-main.py	Demonstrates the system by creating sample data and displaying account summaries
+policyholder.py	Manages policyholder registration, status changes, product assignments, and payment history
+product.py	Handles creation, updates, suspension, and removal of insurance products
+payment.py	Processes payments, sends reminders, and applies penalties
+main.py	Demonstrates system functionality with sample data
 README.md	Documentation for setup, usage, and project structure
 
-## Assumptions and Limitations
+##  Assumptions and Limitations
 ## Assumptions
-Each policyholder can have multiple products and payments
+Each policyholder can hold multiple products and make multiple payments
 
-Payments are assumed to be successful once processed
+Payments are assumed successful once processed
 
 Dates are manually entered as strings for simplicity
 
-No database or persistent storage is used; all data is in-memory
+All data is stored in-memory (no database integration)
 
 ## Limitations
 No user interface (CLI or GUI); interactions are hardcoded in main.py
@@ -66,7 +69,7 @@ No error handling for invalid inputs or duplicate IDs
 
 Not integrated with external payment gateways or APIs
 
-Designed for demonstration purposes only, not production use
+Intended for demonstration purposes only, not production use
 
 ## Author
 Kendra Onah
