@@ -18,10 +18,7 @@ The system demonstrates object-oriented programming principles and is structured
 
 ### Installation
 1. **Clone the repository** (if using GitHub):
-   ```bash
-   git clone https://github.com/yourusername/policy-management-system.git
-   cd policy-management-system
-Or download the ZIP file:
+   
 
 Extract the contents to a folder named policy_management
 
